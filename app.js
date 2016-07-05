@@ -55,9 +55,4 @@ app.use(function(err, req, res, next) {
     error: {}
   });
 });
-
-var PORT =5000;
-var http=app.listen(PORT,function(){
-  console.log("servidor corriendo en el puerto: "+PORT);
-});
 module.exports = app;
